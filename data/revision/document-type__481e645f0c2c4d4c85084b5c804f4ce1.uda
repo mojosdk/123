@@ -1,0 +1,135 @@
+{
+  "DefaultTemplate": "umb://template/05f962939dfa4f1a9efb5585075ecc0b",
+  "AllowedTemplates": [
+    "umb://template/05f962939dfa4f1a9efb5585075ecc0b"
+  ],
+  "Icon": "icon-user-female",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "AllowedAtRoot": false,
+  "IsContainer": false,
+  "Parent": null,
+  "AllowedChildContentTypes": [],
+  "CompositionContentTypes": [
+    "umb://document-type/865fbcb3a2834158a465b14eb63ed476"
+  ],
+  "PropertyGroups": [
+    {
+      "Key": "1a9506ae-855f-4eef-8f68-5b47ec0a1635",
+      "Name": "Details",
+      "SortOrder": 0,
+      "PropertyTypes": [
+        {
+          "Key": "c814d43e-ff08-4418-ac9b-095a66d64592",
+          "Alias": "photo",
+          "DataType": "umb://data-type/c63ba300f87940e986cb2e9401f64e16",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Photo",
+          "SortOrder": 0,
+          "Validation": null
+        },
+        {
+          "Key": "db2a2b50-d5da-4cf9-93ba-b16ae782bc0f",
+          "Alias": "department",
+          "DataType": "umb://data-type/71e1e182da104280aa35800a8de19a32",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Department",
+          "SortOrder": 1,
+          "Validation": null
+        },
+        {
+          "Key": "ed11be96-8c7d-4fa9-a8f0-a7d9ed9f96ea",
+          "Alias": "email",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Email",
+          "SortOrder": 2,
+          "Validation": null
+        }
+      ]
+    },
+    {
+      "Key": "7975a2b6-9620-4dab-a5a1-347c2d2ec215",
+      "Name": "Social",
+      "SortOrder": 1,
+      "PropertyTypes": [
+        {
+          "Key": "466ec9aa-2905-4ad6-a9c4-6edbca9df3c6",
+          "Alias": "twitterUsername",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Twitter username",
+          "SortOrder": 0,
+          "Validation": null
+        },
+        {
+          "Key": "5b6ecd01-d9d6-445b-be83-1b54bf01c52e",
+          "Alias": "instagramUsername",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Instagram Username",
+          "SortOrder": 3,
+          "Validation": null
+        },
+        {
+          "Key": "6b82a284-322a-4f71-9216-fd1cf6f1ad78",
+          "Alias": "facebookUsername",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Facebook username",
+          "SortOrder": 1,
+          "Validation": null
+        },
+        {
+          "Key": "ee177641-3c2c-4727-aca2-d0411286fbaa",
+          "Alias": "linkedInUsername",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "LinkedIn username",
+          "SortOrder": 2,
+          "Validation": null
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/481e645f0c2c4d4c85084b5c804f4ce1",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/71e1e182da104280aa35800a8de19a32",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/c63ba300f87940e986cb2e9401f64e16",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/865fbcb3a2834158a465b14eb63ed476",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://template/05f962939dfa4f1a9efb5585075ecc0b",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Person",
+  "Alias": "person",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
+  "__version": "2.0.12"
+}

@@ -1,0 +1,79 @@
+{
+  "DefaultTemplate": "umb://template/53621e3e447a46c19ceac91e19725a57",
+  "AllowedTemplates": [
+    "umb://template/53621e3e447a46c19ceac91e19725a57"
+  ],
+  "Icon": "icon-shopping-basket",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "AllowedAtRoot": false,
+  "IsContainer": true,
+  "Parent": null,
+  "AllowedChildContentTypes": [],
+  "CompositionContentTypes": [
+    "umb://document-type/7a379ef0e16a4dd087264f2deec6d920",
+    "umb://document-type/865fbcb3a2834158a465b14eb63ed476"
+  ],
+  "PropertyGroups": [
+    {
+      "Key": "32aa263d-ef73-43e1-9742-23cf7f9982ee",
+      "Name": "Shop",
+      "SortOrder": 0,
+      "PropertyTypes": [
+        {
+          "Key": "1d12b5a1-b63c-4f86-89c4-6607188c1dee",
+          "Alias": "featuredProducts",
+          "DataType": "umb://data-type/d865637a829e47b9a9cab19a0bb4d3ee",
+          "Description": null,
+          "Mandatory": true,
+          "Name": "Featured Products",
+          "SortOrder": 1,
+          "Validation": null
+        },
+        {
+          "Key": "bc4b75eb-fb31-4f2f-acaf-47470a387a93",
+          "Alias": "defaultCurrency",
+          "DataType": "umb://data-type/4d7ef8eb0e2f484780259570aae43544",
+          "Description": "This is just used to prefix pricing",
+          "Mandatory": true,
+          "Name": "Default Currency",
+          "SortOrder": 0,
+          "Validation": null
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/3b97361645cd4ac6b0bbffdeda879a5a",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/4d7ef8eb0e2f484780259570aae43544",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/d865637a829e47b9a9cab19a0bb4d3ee",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/7a379ef0e16a4dd087264f2deec6d920",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/865fbcb3a2834158a465b14eb63ed476",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://template/53621e3e447a46c19ceac91e19725a57",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Products",
+  "Alias": "products",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
+  "__version": "2.0.12"
+}

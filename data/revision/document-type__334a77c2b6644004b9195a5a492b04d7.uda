@@ -1,0 +1,165 @@
+{
+  "DefaultTemplate": "umb://template/1201bb4326464831bb0dd738f989d863",
+  "AllowedTemplates": [
+    "umb://template/1201bb4326464831bb0dd738f989d863"
+  ],
+  "Icon": "icon-sweatshirt",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "AllowedAtRoot": false,
+  "IsContainer": false,
+  "Parent": null,
+  "AllowedChildContentTypes": [],
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "1abe8515-618b-4c69-a5e7-520aee84a8f2",
+      "Name": "Features",
+      "SortOrder": 1,
+      "PropertyTypes": [
+        {
+          "Key": "36503640-33ac-4f76-bf6e-456e6f633201",
+          "Alias": "features",
+          "DataType": "umb://data-type/2b806d03d9f741a382264abc870585c4",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Features",
+          "SortOrder": 0,
+          "Validation": null
+        }
+      ]
+    },
+    {
+      "Key": "3d50a08f-581a-406e-8bdc-b1e0c61a2f42",
+      "Name": "Detailed Description",
+      "SortOrder": 2,
+      "PropertyTypes": [
+        {
+          "Key": "8d4dc5bf-8a4a-4032-a555-8c21e78e1d4a",
+          "Alias": "bodyText",
+          "DataType": "umb://data-type/1cd1f7c5f2ed4aa2ac7cfb2ab363a743",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Content",
+          "SortOrder": 0,
+          "Validation": null
+        }
+      ]
+    },
+    {
+      "Key": "44451b74-e426-4590-b59f-e2043af4139f",
+      "Name": "Product Details",
+      "SortOrder": 0,
+      "PropertyTypes": [
+        {
+          "Key": "5dc5b925-f3ab-453d-8d88-d0f994cfced0",
+          "Alias": "category",
+          "DataType": "umb://data-type/b6b73142b9c14bf8a16de1c23320b549",
+          "Description": null,
+          "Mandatory": true,
+          "Name": "Category",
+          "SortOrder": 3,
+          "Validation": null
+        },
+        {
+          "Key": "66ccef15-b193-4d8f-9b9b-1c743a7683bd",
+          "Alias": "productName",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": null,
+          "Mandatory": true,
+          "Name": "Product Name",
+          "SortOrder": 0,
+          "Validation": null
+        },
+        {
+          "Key": "8e68778d-9cbb-4d72-baa3-c892ea6c1f24",
+          "Alias": "photos",
+          "DataType": "umb://data-type/67758eb351c74742995897bc66e4e635",
+          "Description": "You can add multiple photos - the first one will be the default and used in overviews and lists",
+          "Mandatory": true,
+          "Name": "Photos",
+          "SortOrder": 6,
+          "Validation": null
+        },
+        {
+          "Key": "a2debe7e-8bad-4b67-8feb-1a686691bc00",
+          "Alias": "description",
+          "DataType": "umb://data-type/c6bac0dd4ab945b18e30e4b619ee5da3",
+          "Description": null,
+          "Mandatory": true,
+          "Name": "Description",
+          "SortOrder": 4,
+          "Validation": null
+        },
+        {
+          "Key": "e72df2be-eb39-456a-a239-ec72553e9e95",
+          "Alias": "price",
+          "DataType": "umb://data-type/68e8fef59761426eb7d4f4d5435cf41f",
+          "Description": null,
+          "Mandatory": true,
+          "Name": "Price",
+          "SortOrder": 1,
+          "Validation": null
+        },
+        {
+          "Key": "ebf88a73-e58e-48a6-b977-f8c9e6a5a3d8",
+          "Alias": "sku",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "SKU",
+          "SortOrder": 5,
+          "Validation": null
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/334a77c2b6644004b9195a5a492b04d7",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/1cd1f7c5f2ed4aa2ac7cfb2ab363a743",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/2b806d03d9f741a382264abc870585c4",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/67758eb351c74742995897bc66e4e635",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/68e8fef59761426eb7d4f4d5435cf41f",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/b6b73142b9c14bf8a16de1c23320b549",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/c6bac0dd4ab945b18e30e4b619ee5da3",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://template/1201bb4326464831bb0dd738f989d863",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Product",
+  "Alias": "product",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
+  "__version": "2.0.12"
+}
